@@ -28,10 +28,10 @@
       <fieldset>
         <legend>Digite no campo, um valor de 1 a 8, que você atribui a cada um dos princípios:</legend>
         <div>
-          <input type="number" class="agility-metric" min="1" max="8" maxlength="1" name="unity" id="unity" value="4"> União
+          <input type="number" class="agility-metric" min="1" max="8" maxlength="1" name="unity" id="unity" value="4" onkeyup=enforceMinMax(this)> União
         </div>
         <div>
-          <input type="number" class="agility-metric" min="1" max="8" maxlength="1" name="organization" id="organization" value="4"> Organização
+          <input type="number" class="agility-metric" min="1" max="8" maxlength="1" name="organization" id="organization" value="4" onkeyup=enforceMinMax(this)> Organização
         </div>
         <div>
           <input type="number" class="agility-metric" min="1" max="8" maxlength="1" name="value-generation" id="value-generation" value="3" onkeyup=enforceMinMax(this)> Geração de valor
